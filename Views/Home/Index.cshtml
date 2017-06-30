@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div>
+    <button onclick="goDirect()">Go Direct!</button>
+    <button onclick="goRedirected()">Go Redirected!</button>
+    <script>
+        function goDirect() {
+            fetch('direct-stuff', {
+                method: 'POST'
+            }).then(resp => {
+                console.log('goDirect()', resp.status);
+                if (resp.ok) {
+                    console.log('you got ok!');
+                }
+                if (resp.redirected) {
+                    console.log('you got redirected!');
+                }
+            })
+        }
+        function goRedirected() {
+            fetch('redirected-stuff', {
+                method: 'POST'
+            }).then(resp => {
+                console.log('goRedirected()', resp.status);
+                if (resp.ok) {
+                    console.log('you got ok!');
+                }
+                if (resp.redirected) {
+                    console.log('you got redirected!');
+                }
+            })
+        }
+    </script>
+</div>

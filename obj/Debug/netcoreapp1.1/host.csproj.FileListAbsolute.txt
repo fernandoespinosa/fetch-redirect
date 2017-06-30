@@ -1,0 +1,8 @@
+C:\Dev\vuela-vuela\fetch-redirect\host\bin\Debug\netcoreapp1.1\host.deps.json
+C:\Dev\vuela-vuela\fetch-redirect\host\bin\Debug\netcoreapp1.1\host.runtimeconfig.json
+C:\Dev\vuela-vuela\fetch-redirect\host\bin\Debug\netcoreapp1.1\host.runtimeconfig.dev.json
+C:\Dev\vuela-vuela\fetch-redirect\host\bin\Debug\netcoreapp1.1\host.dll
+C:\Dev\vuela-vuela\fetch-redirect\host\bin\Debug\netcoreapp1.1\host.pdb
+C:\Dev\vuela-vuela\fetch-redirect\host\obj\Debug\netcoreapp1.1\host.AssemblyInfo.cs
+C:\Dev\vuela-vuela\fetch-redirect\host\obj\Debug\netcoreapp1.1\host.dll
+C:\Dev\vuela-vuela\fetch-redirect\host\obj\Debug\netcoreapp1.1\host.pdb
