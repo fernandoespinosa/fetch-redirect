@@ -12,6 +12,7 @@
                 console.log('goDirect()', resp.status);
                 if (resp.ok) {
                     console.log('you got ok!');
+                    console.log('and this this your result', resp.text().then(text => console.log(text)))
                 }
                 if (resp.redirected) {
                     console.log('you got redirected!');
@@ -25,6 +26,7 @@
                 console.log('goRedirected()', resp.status);
                 if (resp.ok) {
                     console.log('you got ok!');
+                    console.log('and this this your result', resp.text().then(text => console.log(text)))
                 }
                 if (resp.redirected) {
                     console.log('you got redirected!');
